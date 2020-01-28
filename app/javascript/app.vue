@@ -9,15 +9,18 @@
       This is a success alert.
     </v-alert>
     <google-contacts></google-contacts>
+    <sample-vuetify> </sample-vuetify>
   </v-app>
 </template>
 
 
 <script>
 import GoogleContacts from './components/GoogleContacts'
+import sampleVuetify from './components/sampleVuetify'
 export default {
   components:{
-    'google-contacts': GoogleContacts
+    'google-contacts': GoogleContacts,
+    'sample-vuetify': sampleVuetify
   },
   data(){
     return {
